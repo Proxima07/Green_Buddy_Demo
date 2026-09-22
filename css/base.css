@@ -9,3 +9,18 @@ body[data-page=home] .section-head{margin-top:18px;margin-bottom:10px}body[data-
 .detail-stage .plant-avatar{width:179px;height:193px;margin:6px auto -11px}.detail-stage h1{font-size:1.55rem}.detail-stage .badge-float{top:101px}.detail-stage{padding-top:14px;padding-bottom:14px}
 
 @media(max-width:520px){.demo-toggle{bottom:151px}.demo-panel{bottom:199px;max-height:calc(100dvh - 222px)}}
+
+/* v1.0.1: demo care-day controls */
+.demo-progress{margin-top:14px;padding:12px;border:1px solid var(--line);border-radius:14px;background:var(--surface)}
+.demo-progress h3{font-size:1rem;margin-bottom:6px}
+.demo-progress-summary,.demo-progress-hint,.demo-progress-status{font-size:.875rem;line-height:1.65;overflow-wrap:anywhere}
+.demo-progress-summary p{line-height:1.65}
+.demo-progress-hint{color:var(--sub);margin-top:6px}
+.demo-day-buttons{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-top:10px}
+.demo-progress .btn{font-size:.875rem;min-height:44px;margin:0;padding:8px 5px}
+.demo-progress label{font-size:.875rem}
+.demo-progress input{font-size:1rem;min-width:0;min-height:44px}
+.demo-days-entry{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px}
+.demo-days-entry .btn{padding:8px 10px}
+.demo-progress-status{color:var(--primary);font-weight:500;margin-top:8px}
+.demo-progress-status:empty{display:none}
